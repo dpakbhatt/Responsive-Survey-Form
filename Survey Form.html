@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Survey Form.css">
+</head>
+
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<h1 id="title" ><u>Customer Satisfaction Survey</u></h1>
+<p id="description" style="background:black; color:white; padding: 5px">Let us know how we can improve our services<p>
+<form id="survey-form">
+  <div class="row-tab">
+    <div class="label-detail">
+    <label id="name-label"> Name: </label>
+    </div>
+    <div class="input-detail">
+      <input id="name" type="text" placeholder="Name" required>
+    </div>
+  </div>
+  <div class="row-tab">
+    <div class="label-detail">
+    <label id="email-label"> Email: </label>
+    </div>
+    <div class="input-detail">
+      <input id="email" type="email" placeholder="Email" required>
+    </div>
+  </div>
+   <div class="row-tab">
+    <div class="label-detail">
+    <label id="number-label"> Age: </label>
+    </div>
+    <div class="input-detail">
+      <input id="number" type="number" placeholder="Age" min="15" max="60">
+    </div>
+  </div>
+  <div class="row-tab">
+    <div class="label-select">
+      <label> How satisfied were you with our service today? </label>
+    </div>
+    <div class="select-input">
+      <select id="dropdown">
+  <option value="very satisfied">Very Satisfied</option>
+  <option value="satisfied">Satisfied</option>
+  <option value="not satisfied">Not Satisfied</option>
+</select>
+    </div>
+  </div>
+  <div class="row-tab">
+     <fieldset>
+        <legend> Is this the first time you have used our services? </legend>
+         <label for="Yes"><input type="radio" name="options" required value="Yes"> Yes</label>
+         <label for="No"><input type="radio" name="options" required value="No"> No</label>
+      </fieldset>
+  </div>
+    <div class="row-tab">
+       <fieldset>
+    <legend>Services you like:</legend>
+    <div class="control">
+      <input id="laundry" type="checkbox" value="laundry" /><label for="laundry">Laundry Services</label>
+    </div>
+    <div class="control">
+      <input id="room" type="checkbox" value="room" /><label for="room">Room Services</label>
+    </div>
+    <div class="control">
+      <input id="fod and beverage" type="checkbox" value="food" /><label for="food and beverage">Food & Beverage</label>
+    </div>
+  </fieldset>
+    </div>
+    <div class="row-tab">
+      <div class="textarea-label">
+      <label>Any Comments or Suggestions?</label>
+      </div>
+      <div class="textarea-box">
+      <textarea id="box" rows="5" columns="10" placeholder="Enter your comments and suggestions here....."></textarea>
+      </div>
+    </div>
+    <div class="row-tab">
+      <button id="submit">Submit</button>
+    </div>
+</form>
+</body>
+</html>

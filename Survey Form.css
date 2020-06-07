@@ -1,0 +1,173 @@
+body {
+  text-align: center;
+  background: #F0F3F4;
+}
+
+#survey-form {
+  width: 70vw;
+  margin: 0 auto;
+  background: black;
+  color: white;
+  font-size: 17px;
+}
+
+.row-tab {
+  display: block;
+  padding-top: 20px;
+}
+
+.label-detail {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+.input-detail {
+  display: inline-block;
+  width: 54%;
+  text-align: left;
+}
+
+.label-select {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+.select-input {
+  display: inline-block;
+  width: 54%;
+  text-align: left;
+}
+
+.control {
+  display: inline-block;
+}
+
+.textarea-label {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.textarea-box {
+  display: inline-block;
+  width: 54%;
+  text-align: left;
+}
+
+#submit {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#submit:hover {
+  background: pink;
+  transform: scale(1.1);
+}
+
+#submit {
+  background: orange;
+}
+
+@media (max-width: 600px) {
+#survey-form {
+  width: 70vw;
+  margin: 0 auto;
+  background: black;
+  color: white;
+  font-size: 14px;
+}
+
+.row-tab {
+  display: block;
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.label-detail {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.input-detail {
+  display: inline-block;
+  width: 54%;
+  text-align: left;
+}
+
+.label-select {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.select-input {
+  display: inline-block;
+  width: 54%;
+  text-align: left;
+}
+
+.control {
+  display: inline-block;
+}
+
+.textarea-label {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.textarea-box {
+  display: inline-block;
+  width: 54%;
+  text-align: left;
+}
+
+#submit {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#submit:hover {
+  background: pink;
+  transform: scale(1.1);
+}
+
+#submit {
+  background: orange;
+}
+
+#title {
+	font-size: 20px;
+}
+
+#description {
+	font-size: 10px;
+}
+
+#name {
+	width: 100px;
+}
+
+#email {
+	width: 100px;
+}
+
+#box {
+	width: 100px; 
+}
